@@ -13,7 +13,7 @@ public class PortfolioInterestScheduler {
 
     private final PortfolioService portfolioService;
 
-    @Scheduled(cron = "0 0 0 * * *")
+    @Scheduled(cron = "${portfolio.interest.schedule}")
     public void runDailyInterestUpdate() {
         log.info("Running daily portfolio interest update...");
         portfolioService.updateDailyInterest();
