@@ -1,21 +1,16 @@
-package org.inits_portfolio_scheduler.data.models;
+package org.inits.inits_portfolio_scheduler.dtos.responses;
 
-import jakarta.persistence.*;
-import lombok.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.UUID;
-
-@Entity
+import lombok.*;
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-public class Portfolio {
-    @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
+public class PortfolioResponse {
 
+    private UUID id;
     private String ownerEmail;
     private String portfolioName;
     private BigDecimal totalValue;

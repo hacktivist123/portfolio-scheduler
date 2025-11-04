@@ -1,6 +1,6 @@
-package org.inits_portfolio_scheduler.dtos.responses;
+package org.inits.inits_portfolio_scheduler.dtos.responses;
 
-import org.inits_portfolio_scheduler.exceptions.PortfolioNotFoundException;
+import org.inits.inits_portfolio_scheduler.exceptions.PortfolioNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

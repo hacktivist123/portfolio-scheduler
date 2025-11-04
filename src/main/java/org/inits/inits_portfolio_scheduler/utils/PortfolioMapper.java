@@ -1,8 +1,8 @@
-package org.inits_portfolio_scheduler.utils;
+package org.inits.inits_portfolio_scheduler.utils;
 
-import org.inits_portfolio_scheduler.data.models.Portfolio;
-import org.inits_portfolio_scheduler.dtos.requests.PortfolioRequest;
-import org.inits_portfolio_scheduler.dtos.responses.PortfolioResponse;
+import org.inits.inits_portfolio_scheduler.data.models.Portfolio;
+import org.inits.inits_portfolio_scheduler.dtos.requests.PortfolioRequest;
+import org.inits.inits_portfolio_scheduler.dtos.responses.PortfolioResponse;
 
 import java.time.LocalDateTime;
 import java.util.List;

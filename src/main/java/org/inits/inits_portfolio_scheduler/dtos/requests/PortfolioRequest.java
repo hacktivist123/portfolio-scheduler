@@ -1,4 +1,4 @@
-package org.inits_portfolio_scheduler.dtos.requests;
+package org.inits.inits_portfolio_scheduler.dtos.requests;
 
 import java.math.BigDecimal;
 import lombok.*;

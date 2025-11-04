@@ -1,4 +1,4 @@
-package org.inits_portfolio_scheduler;
+package org.inits.inits_portfolio_scheduler;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

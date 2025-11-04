@@ -1,4 +1,4 @@
-package org.inits_portfolio_scheduler.dtos.responses;
+package org.inits.inits_portfolio_scheduler.dtos.responses;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

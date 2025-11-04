@@ -1,7 +1,7 @@
-package org.inits_portfolio_scheduler.services;
+package org.inits.inits_portfolio_scheduler.services;
 
-import org.inits_portfolio_scheduler.dtos.requests.PortfolioRequest;
-import org.inits_portfolio_scheduler.dtos.responses.PortfolioResponse;
+import org.inits.inits_portfolio_scheduler.dtos.requests.PortfolioRequest;
+import org.inits.inits_portfolio_scheduler.dtos.responses.PortfolioResponse;
 
 import java.util.List;
 import java.util.UUID;

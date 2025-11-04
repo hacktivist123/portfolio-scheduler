@@ -1,8 +1,8 @@
-package org.inits_portfolio_scheduler.scheduler;
+package org.inits.inits_portfolio_scheduler.scheduler;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.inits_portfolio_scheduler.services.PortfolioService;
+import org.inits.inits_portfolio_scheduler.services.PortfolioService;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
