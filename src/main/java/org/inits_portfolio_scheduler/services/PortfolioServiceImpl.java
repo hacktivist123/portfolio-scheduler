@@ -57,8 +57,8 @@ public class PortfolioServiceImpl implements PortfolioService {
         BigDecimal dailyRate = annualInterestRate.divide(BigDecimal.valueOf(365), 10, RoundingMode.HALF_UP);
 
         for (Portfolio portfolio : portfolios) {
-            BigDecimal interest = portfolio.getTotalValue().multiply(dailyRate);
-            portfolio.setTotalValue(portfolio.getTotalValue().add(interest));
+            BigDecimal interestRate = portfolio.getTotalValue().multiply(dailyRate);
+            portfolio.setTotalValue(portfolio.getTotalValue().add(interestRate));
             portfolio.setLastUpdated(LocalDateTime.now());
         }
 
